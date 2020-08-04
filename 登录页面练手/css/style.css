@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: #666666;
+}
+
+#main {
+    height: 100%;
+    background: url(../img/bj.png) no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.content {
+    width: 960px;
+    height: 100%;
+    background-color: white;
+    display: flex;
+    padding: 60px;
+    flex-direction: column;
+    box-sizing: border-box;
+    float: right;
+}
+
+.logo img {
+    width: 300px;
+}
+
+h1 {
+    display: flex;
+    font-size: 36px;
+    justify-content: center;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.input {
+    display: flex;
+    /* border: 1px solid #cccccc; */
+}
+
+.input input {
+    width: 530px;
+    height: 80px;
+    font-size: 20px;
+    margin: 24px auto;
+    box-sizing: border-box;
+    border: 1px solid #999999;
+    padding: 0 0 0 12px;
+}
+
+.res-forget {
+    display: flex;
+    width: 530px;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.inputbutton {
+    margin: 0 auto;
+}
+
+.inputbutton input {
+    width: 530px;
+    height: 80px;
+    font-size: 20px;
+    color: white;
+    border: 0;
+    margin: 24px auto;
+    background-color: #333333;
+}
+
+.footerText {
+    margin-top: 160px;
+}
+
+.footerText a {
+    float: right;
+}

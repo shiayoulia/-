@@ -1,0 +1,145 @@
+<!Doctype html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <meta name="keywords" content="区块链">
+    <meta name="description" content="区块链">
+    <meta name="full-screen" content="yes">
+    <meta name="x5-fullscreen" content="true">
+    <meta name="browsermode" content="application">
+    <meta name="x5-page-mode" content="app">
+    <title>小黑的区块链APP下载页</title>
+    <link href="./css/download-0.2.css" rel="stylesheet" type="text/css">
+    <link href="./css/zepto.fullpage-0.2.css" rel="stylesheet" type="text/css">
+    <script>
+        (function(doc, win) {
+            var docEl = doc.documentElement,
+                resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize';
+            docEl
+            var recalc = window.recalc = function() {
+                var clientWidth = docEl.clientWidth;
+                if (!clientWidth) return;
+                docEl.style.fontSize = Math.floor(clientWidth / 30) + 'px';
+            };
+            if (!doc.addEventListener) return;
+            win.addEventListener(resizeEvt, recalc, false);
+            doc.addEventListener('DOMContentLoaded', recalc, false);
+        })(document, window);
+    </script>
+
+    <script type="text/javascript">
+        var _smq = _smq || [];
+
+        function GetUrlRequest() {
+            var url = location.search
+            var theRequest = {}
+            if (url.indexOf('?') != -1) {
+                var str = url.substr(1);
+                strs = str.split('&');
+                for (var i = 0; i < strs.length; i++) {
+                    theRequest[strs[i].split('=')[0]] = (strs[i].split('=')[1]);
+                }
+            }
+            return theRequest;
+        }
+    </script>
+</head>
+
+<body>
+    <div class="wp">
+        <div class="wp-inner">
+
+            <div class="page page1">
+                <img class="bg-img" src="./img/fp-bg-1.jpg">
+
+                <div class="right">
+                    <img class="head-img animated" src="./img/page-1-head.png" data-animate="floatIn">
+                </div>
+
+                <div class="shiftUp-wrapper">
+                    <img class="shiftUp" src="./img/arrow.png">
+                </div>
+                <div class="stick download-btn download-text animated" data-animate="shakeIn" onfocus="javascript:void(0)">
+                    <div class="download-text-wrapper1">
+                        <span>立即下载</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="page page2">
+                <img class="bg-img" src="./img/fp-bg-left.jpg">
+                <div class="right">
+                    <img class="people-img" src="./img/fp-people-2.png">
+
+                    <img class="word-title animated" src="./img/fp-word-2-title.png" data-animate="floatIn">
+                    <img class="word-st animated" src="./img/fp-word-2-st.png" data-animate="floatIn">
+                    <div class="count animated" data-animate="bounceIn">
+                        <div class="count-ren"><span class="count">0</span> 人</div>
+                        <div>正在使用<span name="module-type">StarCoin</span></div>
+                    </div>
+                    <div class="no-waiting download-btn download-img animated" data-animate="bounceIn">
+                        <span>立即下载</span>
+                    </div>
+                </div>
+                <img class="shiftUp" src="./img/arrow.png">
+            </div>
+
+            <div class="page page3">
+                <img class="bg-img" src="./img/fp-bg-right.jpg">
+                <div class="left">
+                    <img class="people-img3" src="./img/fp-people-3.png">
+                    <img class="word-title animated" src="./img/fp-word-3-title.png?v=20170816211947" data-animate="floatIn">
+                    <img class="word-st animated" src="./img/fp-word-3-st.png?v=20170816211947" data-animate="floatIn">
+                </div>
+                <div class="shiftUp-wrapper">
+                    <img class="shiftUp" src="./img/arrow.png">
+                </div>
+                <div class="stick download-btn download-text animated" data-animate="shakeIn" onfocus="javascript:void(0)">
+                    <div class="download-text-wrapper1">
+                        <span>立即下载</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="page page4">
+                <img class="bg-img" src="./img/fp-bg-last.jpg">
+                <div class="right">
+                    <img class="word-title animated" src="./img/fp-word-4-title.png" data-animate="floatIn">
+                    <img class="word-st animated" src="./img/fp-word-4-st.png" data-animate="floatIn">
+                </div>
+                <div class="shiftUp-wrapper">
+                    <img class="shiftUp" src="./img/arrow.png">
+                </div>
+                <div class="stick download-btn download-text animated" data-animate="shakeIn" onfocus="javascript:void(0)">
+                    <div class="download-text-wrapper1">
+                        <span>立即下载</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="page page5">
+                <img class="bg-img" src="./img/fp-bg-last.jpg">
+                <div class="right">
+                    <img class="word-title animated" src="./img/fp-word-5-title.png" data-animate="floatIn">
+                    <img class="word-st animated" src="./img/fp-word-5-st.png" data-animate="floatIn">
+                </div>
+                <div class="stick download-btn download-text animated" data-animate="shakeIn" onfocus="javascript:void(0)">
+                    <div class="download-text-wrapper1">
+                        <span>立即下载</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./js/zepto.min.js"></script>
+    <script src="./js/zepto.fullpage.js"></script>
+    <script src="./js/count-up.js"></script>
+    <script src="./js/guid.js"></script>
+    <script src="./js/palife-wx-1024.js"></script>
+    <script src="./js/download-0.4.js"></script>
+</body>
+
+</html>
